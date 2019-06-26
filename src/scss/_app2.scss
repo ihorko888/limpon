@@ -1,0 +1,19 @@
+.app2 {
+    padding: 130px 0 120px;
+    background-image: url(../img/app/app-bg.png);
+    .wrap {
+        display: flex;
+        justify-content: space-between;
+        div {
+            flex-basis: 55%;
+        }
+        h2 {
+            width: 410px;
+            line-height: 1.2;
+            text-align: left;
+        }
+        p {
+            margin-bottom: 38px;
+        }
+    }
+}

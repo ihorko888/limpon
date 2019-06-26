@@ -1,0 +1,13 @@
+.company {
+    margin-top: 200px;
+    padding: 100px 0;
+    background-image: url(../img/company-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    &-list {
+        padding-left: 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
