@@ -86,4 +86,12 @@ $(document).ready(function(){
 	});
 });
 
+// Burger
+
+$('.burger').click(function(event) {
+    $('.burger, .nav').toggleClass('active');
+    $('body').toggleClass('lock');
+    
+});
+
 new WOW().init();
