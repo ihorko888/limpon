@@ -445,7 +445,7 @@ h1 {
   -ms-flex-pack: justify;
   justify-content: space-between;
   padding: 10px 10px 10px 40px;
-  width: 120%;
+  width: 100%;
   border-radius: 35px;
   border: 2px solid rgba(255, 255, 255, 0.2);
   -webkit-transition: .3s;
@@ -664,7 +664,7 @@ h1 {
 }
 
 .app {
-  padding: 69px 0 82px 0;
+  padding: 69px 15px 82px 15px;
 }
 
 .app .wrap {
@@ -1189,6 +1189,19 @@ footer .wrap .footer-right-soc a i:hover {
   .header-img {
     width: 600px;
   }
+
+
+  .stat-list {
+    padding-left: 0;
+  }
+
+
+  footer {
+    padding: 0 15px;
+  }
+  footer .wrap {
+    flex-wrap: wrap;
+  }
 }
 
 @media (max-width: 991px) {
@@ -1315,12 +1328,181 @@ footer .wrap .footer-right-soc a i:hover {
     flex-wrap: wrap;
     padding: 0 15px;
   }
+
+
+  .subs {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .subs .wrap {
+    justify-content: center;
+  }
+
+  .subs-left {
+    margin-bottom: 30px;
+  }
+
+
+  .app2 {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .app2 .wrap {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .app2 .wrap div {
+    flex: 100%;
+    margin-bottom: 30px;
+  }
+  .app2 .wrap img {
+    width: 100%;
+  }
+
+  
+  .clients .wrap {
+    padding: 0 15px;
+  }
+
+
+
+  .plans .wrap {
+    padding: 0 15px;
+  }
+  .plans-price {
+    flex-wrap: wrap;
+  }
+
+
+  .plans-price-item {
+    flex-basis: 34%;
+  }
+  .plans-price-item:last-child {
+    margin-top: 20px;
+  }
+
+
+  .team .wrap {
+    padding: 0 15px;
+  }
+  .team-box {
+    flex-wrap: wrap;
+  }
+  .team-box-item {
+    flex-basis: 45%;
+  }
+  .team-box-item:last-child {
+    margin-top: 130px;
+  }
+  .team .wrap h2 {
+    color: #85c8ff;
+  }
+
+
+  .form-flex {
+    padding: 0 15px;
+  }
+
+}
+
+@media (max-width: 809px) {
+  .app .wrap .intro {
+    font-size: 200px;
+  }
 }
 
 @media (max-width: 767px) {
   .company-list li {
     flex: 50%;
   }
+
+
+  .grid-page {
+    display: block;
+  }
+
+
+  .subs .wrap .subs-left-inp {
+    width: 80%;
+  }
+
+
+  .app .wrap {
+    flex-direction: column;
+    align-items: center;
+  }
+  .app-content {
+    margin-bottom: 30px;
+    width: 100%;
+  }
+  .app .wrap .intro {
+    font-size: 130px;
+  }
+
+
+  .analytics-flex {
+    flex-direction: column;
+    padding: 0 15px;
+  }
+  .analytics-flex img {
+    width: 100%;
+  }
+  .analytics-flex div {
+    order: -1;
+    margin-bottom: 30px;
+  }
+
+
+  .clients-box {
+    flex-wrap: wrap;
+  }
+  .clients-box-item {
+    flex: 100%;
+    margin-bottom: 30px;
+  }
+
+
+  .plans-price {
+    justify-content: center;
+  }
+  .plans-price-item {
+    flex-basis: 50%;
+  }
+  .plans-price-item:last-child {
+    margin-top: 0;
+  }
+  .plans-price-item + .plans-price-item {
+    margin-top: 20px;
+  }
+
+
+  .team-box {
+    justify-content: center;
+  }
+  .team-box-item {
+    flex-basis: 70%;
+  }
+  .team-box-item:last-child {
+    margin-top: 0;
+  }
+  .team-box-item + .team-box-item {
+    margin-top: 130px;
+  }
+
+
+  .form-flex {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .form-flex div {
+    flex-basis: 100%;
+  }
+  .form-flex img {
+    order: 1;
+    width: 100%;
+  }
+
 }
 
 @media (max-width: 575px) {
@@ -1349,9 +1531,108 @@ footer .wrap .footer-right-soc a i:hover {
   .company-list li + li {
     margin-top: 15px;
   }
+
+
+  .subs .wrap .subs-left h2 {
+    font-size: 40px;
+  }
+
+  .subs img {
+    width: 100%;
+  }
+
+  .subs .wrap .subs-left-inp {
+    padding: 0;
+  }
+
+  .subs .wrap .subs-left-inp input {
+    font-size: 13px;
+  }
+
+  .btn-blue, .btn-grey {
+    font-size: 10px;
+    padding: 16px 20px;
+  }
+
+  .subs .wrap .subs-left-inp {
+    width: 100%;
+  }
+
+  .subs .wrap .subs-left h2 {
+    line-height: 50px;
+  }
+
+
+  .software-img {
+    position: static;
+    width: 100%;
+  }
+  .software-flex {
+    padding: 0 15px;
+  }
+  .software-flex div {
+    flex: 100%;
+  }
+
+
+  .stat {
+    overflow: hidden;
+  }
+  .stat-list {
+    flex-wrap: wrap;
+  }
+  .stat-list li {
+    flex: 100%;
+    margin-bottom: 30px;
+  }
+
+
+
+  .app .wrap .intro {
+    font-size: 100px;
+  }
+  .app-content h2 {
+    font-size: 43px;
+  }
+
+
+  .app2 .wrap h2 {
+    width: auto;
+  }
+
+
+  .screen h2 {
+    line-height: 1.2;
+  }
+
+
+  .plans-price-item {
+    flex-basis: 100%;
+  }
+
+  .plans-price-item h3 {
+    font-size: 40px;
+  }
+
+
+  .team-box-item {
+    flex-basis: 100%;
+  }
+
+
+  footer .wrap {
+    justify-content: center;
+  }
+
 }
 
-@media (max-width: 352px) {
+@media (max-width: 350px) {
+  .team-box-item .avatar {
+    width: 100%;
+  }
+}
+
+@media (max-width: 319px) {
   .header .btn-group a+a {
     margin-top: 10px;
   }
