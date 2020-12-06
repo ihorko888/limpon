@@ -55,6 +55,7 @@ $('.scrollToSec').click(function () {
       },400);
       $('.nav').removeClass('active');
       $('body').removeClass('lock');
+      $('.burger').removeClass('active');
     }
     return false;
 });
