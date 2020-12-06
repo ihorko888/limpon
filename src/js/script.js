@@ -53,6 +53,8 @@ $('.scrollToSec').click(function () {
       $('html,body').animate({
         scrollTop:getOffset
       },400);
+      $('.nav').removeClass('active');
+      $('body').removeClass('lock');
     }
     return false;
 });
@@ -86,12 +88,11 @@ $(document).ready(function(){
 	});
 });
 
-// Burger
 
+// Burger
 $('.burger').click(function(event) {
     $('.burger, .nav').toggleClass('active');
     $('body').toggleClass('lock');
-    
 });
 
 new WOW().init();
